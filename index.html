@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALABANT | Fashion Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">GALA<span>BANT</span></a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#categories">Categories</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#products" class="shop-button">Shop Now ↗</a>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">YOUR STYLE, YOUR STATEMENT</p>
+                <h1>Discover Your<br>Perfect <span>Style.</span></h1>
+                <p class="hero-text">
+                    Explore the latest fashion trends and express yourself
+                    with clothing designed for every occasion.
+                </p>
+                <a href="#products" class="primary-button">Explore Collection →</a>
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85"
+                    alt="Fashion model wearing a stylish outfit">
+                <div class="image-label">
+                    <strong>New Collection</strong>
+                    <p>Style that speaks.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="categories section" id="categories">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">EXPLORE OUR WORLD</p>
+                    <h2>Shop by Category</h2>
+                </div>
+                <a href="#products" class="text-link">View all products ↗</a>
+            </div>
+
+            <div class="category-grid">
+                <a href="#products" class="category-card">
+                    <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80" alt="Women's fashion">
+                    <div><h3>Women's Wear</h3><p>Explore collection ↗</p></div>
+                </a>
+
+                <a href="#products" class="category-card">
+                    <img src="https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=600&q=80" alt="Men's fashion">
+                    <div><h3>Men's Wear</h3><p>Explore collection ↗</p></div>
+                </a>
+
+                <a href="#products" class="category-card">
+                    <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=600&q=80" alt="Fashion accessories">
+                    <div><h3>Accessories</h3><p>Explore collection ↗</p></div>
+                </a>
+            </div>
+        </section>
+
+        <section class="products section" id="products">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">HANDPICKED FOR YOU</p>
+                    <h2>Popular Products</h2>
+                </div>
+                <a href="#products" class="text-link">Discover more ↗</a>
+            </div>
+
+            <div class="product-grid">
+                <article class="product-card">
+                    <div class="product-image">
+                        <span class="tag">NEW</span>
+                        <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80" alt="Modern women's outfit">
+                    </div>
+                    <p class="product-category">WOMEN'S WEAR</p>
+                    <h3>Everyday Chic Outfit</h3>
+                    <p class="price">₦28,000</p>
+                    <button class="add-button" type="button">Add to Bag +</button>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <span class="tag">POPULAR</span>
+                        <img src="https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=600&q=80" alt="Classic casual shirt">
+                    </div>
+                    <p class="product-category">MEN'S WEAR</p>
+                    <h3>Classic Casual Shirt</h3>
+                    <p class="price">₦22,500</p>
+                    <button class="add-button" type="button">Add to Bag +</button>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=600&q=80" alt="Stylish handbag">
+                    </div>
+                    <p class="product-category">ACCESSORIES</p>
+                    <h3>Signature Handbag</h3>
+                    <p class="price">₦35,000</p>
+                    <button class="add-button" type="button">Add to Bag +</button>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=600&q=80" alt="Minimal white T-shirt">
+                    </div>
+                    <p class="product-category">ESSENTIALS</p>
+                    <h3>Essential White Tee</h3>
+                    <p class="price">₦15,000</p>
+                    <button class="add-button" type="button">Add to Bag +</button>
+                </article>
+            </div>
+            <p class="cart-message" id="cart-message" aria-live="polite"></p>
+        </section>
+
+        <section class="sale">
+            <div class="sale-content">
+                <p class="eyebrow">DON'T MISS OUT</p>
+                <h2>Weekend Style Sale</h2>
+                <p>Refresh your wardrobe with selected styles at special prices.</p>
+                <a href="#products" class="primary-button">Shop the Sale →</a>
+            </div>
+            <div class="sale-image">
+                <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=85" alt="Friends enjoying a fashion shopping trip">
+            </div>
+        </section>
+
+        <section class="testimonials section">
+            <p class="eyebrow">KIND WORDS</p>
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-grid">
+                <article class="testimonial-card">
+                    <p class="stars">★★★★★</p>
+                    <p>"Beautiful styles and a great shopping experience. I'll definitely be back!"</p>
+                    <strong>— Amara O.</strong>
+                </article>
+                <article class="testimonial-card">
+                    <p class="stars">★★★★★</p>
+                    <p>"The collection is stylish, versatile, and perfect for everyday wear."</p>
+                    <strong>— David E.</strong>
+                </article>
+                <article class="testimonial-card">
+                    <p class="stars">★★★★★</p>
+                    <p>"I love the designs. Finding something that suits my style is easy."</p>
+                    <strong>— Grace M.</strong>
+                </article>
+            </div>
+        </section>
+
+        <section class="newsletter section">
+            <p class="eyebrow">STAY IN STYLE</p>
+            <h2>Join Our Fashion Community</h2>
+            <p>Get updates about new arrivals, style inspiration and special offers.</p>
+            <form id="newsletter-form">
+                <input type="email" id="email" placeholder="Enter your email address" required>
+                <button type="submit">Subscribe →</button>
+            </form>
+            <p id="newsletter-message" aria-live="polite"></p>
+        </section>
+    </main>
+
+    <footer class="footer" id="contact">
+        <a href="#home" class="logo">GALA<span>BANT</span></a>
+        <p>Fashion that lets your personality shine.</p>
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#categories">Categories</a>
+            <a href="#products">Products</a>
+            <a href="mailto:hello@galabant.com">Contact Us</a>
+        </div>
+        <p class="copyright">© 2026 GALABANT. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
